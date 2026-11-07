@@ -1,6 +1,14 @@
 # Danus × Open Math OS
 
+Based on [Danus by FrenzyMath and its contributors](https://github.com/frenzymath/Danus). The original diagram below is reproduced unchanged under the [Apache 2.0 license](images/DANUS-LICENSE.txt).
+
 A local Codex coordinator uses Danus to organise mathematical work. Workers run in Open Math OS, with project files and remote compute. We supervise them through tmux.
+
+## Original Danus architecture
+
+![Original Danus architecture, credited to FrenzyMath and the Danus contributors](images/danus-original.png)
+
+[Original source](https://github.com/frenzymath/Danus/blob/6d92e8d415933ca2ef52fd1a4da73fdfcd418f1c/docs/assets/architecture.png). Our planned setup follows below.
 
 ## Agents and knowledge
 
