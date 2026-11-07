@@ -4,13 +4,13 @@ A local Codex coordinator uses Danus to organise mathematical work. Workers run 
 
 ## Agents and knowledge
 
-![Danus agents, verifier, and memory](docs/danus.svg)
+![Danus agents, verifier, and memory](images/danus.png)
 
 Exploratory subagents suggest directions. Proof workers develop claims. A fresh verifier checks each submission; only accepted results enter the fact graph. Shared notes and dead ends remain separate from verified facts.
 
 ## How we want to run it
 
-![Planned tmux controls, worker creation, interruption, and checkpoints](docs/danus-control.svg)
+![Planned tmux controls, worker creation, interruption, and checkpoints](images/danus-control.png)
 
 Three tmux windows hold the **coordinator**, **report**, and **control** views. The coordinator can create workers as tasks branch. Each remote worker gets its own session and output folder; the reporter summarises published progress every three minutes.
 
