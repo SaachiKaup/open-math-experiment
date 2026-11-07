@@ -1,31 +1,27 @@
 # Danus × Open Math OS
 
-We want a team of agents to work on mathematical problems and keep their work in files. A local Codex coordinator follows Danus's approach: split the problem, check submissions, and build on accepted facts. Workers use Open Math OS for remote compute and project files. We watch and steer the work through tmux.
+A local Codex coordinator uses Danus to organise mathematical work. Workers run in Open Math OS, with project files and remote compute. We supervise them through tmux.
 
-![Proposed Danus workflow, with local coordination and remote workers](docs/danus.svg)
+## Agents and knowledge
 
-## The approach
+![Danus agents, verifier, and memory](docs/danus.svg)
 
-1. **Set the goal.** Agree on the problem and what counts as done.
-2. **Split the work.** Assign focused tasks: a lemma, an example, a computation, or another line of attack.
-3. **Run the workers.** An adapter uses the platform API and WebSocket. Each worker gets a session and output directory in the shared Open Math OS project.
-4. **Check the results.** A fresh verifier reviews claims and supporting files. Accepted results enter Danus's fact graph; rejected submissions return for revision.
-5. **Bring it together.** The coordinator uses accepted facts to choose the next tasks and assemble the final explanation and files.
+Exploratory subagents suggest directions. Proof workers develop claims. A fresh verifier checks each submission; only accepted results enter the fact graph. Shared notes and dead ends remain separate from verified facts.
 
-The fact graph is our source of accepted mathematical results. Progress notes and promising ideas stay separate from verified facts.
+## How we want to run it
 
-## Watching and steering with tmux
+![Planned tmux controls, worker creation, interruption, and checkpoints](docs/danus-control.svg)
 
-We plan three windows: **coordinator**, **report**, and **control**. The reporter shows published progress, obstacles, and accepted results every three minutes. We can stop, reassign, and restart workers from the control window.
+Three tmux windows hold the **coordinator**, **report**, and **control** views. The coordinator can create workers as tasks branch. Each remote worker gets its own session and output folder; the reporter summarises published progress every three minutes.
 
-Remote workers do not need a pane each. Stopping the coordinator does not automatically stop them; local coordination needs its host awake.
+At round boundaries and before a graceful stop, save the assignment, progress, output paths, and accepted fact references. Resume from that checkpoint, or change the assignment and start again. A forced interruption may lose unsaved work.
 
-## Where we are
+Stopping the coordinator does not stop remote workers. Local supervision still needs its host awake.
 
-**Verified:** our platform key can list teams and projects, read chat history, open a VM connection, authenticate over WebSocket, and list files in **AI Mathathon 2026**.
+## Current status
 
-**Next:** connect Danus's worker execution to that runtime, submit and monitor tasks, transfer files, and add the reporter. The diagram shows this intended integration, not a completed deployment.
+**Verified:** platform-key authentication, project discovery, chat history, VM connection, and file listing in AI Mathathon 2026.
 
-Use the **platform key** for agents and project files. The separate **model key** is for direct model inference. Keys stay in the local `.env`.
+**To build:** the Danus worker adapter, task submission, file transfers, checkpoints, and reporter. The control diagram describes this plan.
 
-The probes and captured evidence are in [`experiments/`](experiments/). The reference Danus implementation is alongside this repo at `../Danus`.
+Keys stay in `.env`. Reference harness: `../Danus`. Probes and evidence: [`experiments/`](experiments/).
