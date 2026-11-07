@@ -1,0 +1,26 @@
+{
+  "next": null,
+  "projects": [
+    {
+      "display_name": "Sample",
+      "id": "pp-21ac5d37de664c6080f3edc7db3da7c1",
+      "name": "default",
+      "state": "active",
+      "training": false
+    },
+    {
+      "display_name": "AI Mathathon 2026",
+      "id": "pp-52168aee71594e2085ec0adf2fea46f5",
+      "name": "p-acd94c16e21a4059ba4d3acbaba02af1",
+      "state": "active",
+      "training": false
+    },
+    {
+      "display_name": "Classifying space filtration",
+      "id": "pp-d0dac3487b394d9cacacca160929d341",
+      "name": "p-dcc90014024d4a86960f01367a637d5a",
+      "state": "active",
+      "training": false
+    }
+  ]
+}

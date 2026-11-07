@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "20261107T115605349859Z",
+  "credential_source": ".env",
+  "environment_and_dotenv_differ": false,
+  "results": [
+    {
+      "case": "runtime_open_no_wake",
+      "method": "POST",
+      "operation": "open",
+      "request_body": {
+        "team": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143",
+        "version": "0.52.0",
+        "ipc_version": 6,
+        "ticket": true,
+        "wake": false
+      },
+      "accept": "application/json",
+      "transport_error": "curl: (6) Could not resolve host: os.openmathmodel.org"
+    }
+  ],
+  "skipped": []
+}

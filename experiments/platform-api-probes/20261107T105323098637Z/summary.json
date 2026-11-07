@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "20261107T105323098637Z",
+  "credential_source": ".env",
+  "environment_and_dotenv_differ": false,
+  "results": [
+    {
+      "case": "orgs",
+      "method": "POST",
+      "operation": "orgs",
+      "request_body": {},
+      "accept": "application/json",
+      "transport_error": "curl: (6) Could not resolve host: os.openmathmodel.org"
+    }
+  ],
+  "skipped": [
+    "models",
+    "model_catalog_json",
+    "model_catalog_browser_accept",
+    "recent_chats",
+    "feature_gates",
+    "project_sessions",
+    "session_history"
+  ]
+}

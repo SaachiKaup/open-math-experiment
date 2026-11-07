@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "activity_ms": 1793764098734,
+      "display_name": "AI Mathathon 2026",
+      "project": "p-acd94c16e21a4059ba4d3acbaba02af1",
+      "session": "in-the-thesis-i-nwhz",
+      "title": "Removing Conjecture 6.3.1 dependence in obstruction map D"
+    },
+    {
+      "activity_ms": 1793644325885,
+      "display_name": "Classifying space filtration",
+      "project": "p-dcc90014024d4a86960f01367a637d5a",
+      "session": "consider-the-standard-simplicial-ipi6",
+      "title": "Classifying space BG cohomology restrictions to simplicial skeleta"
+    },
+    {
+      "activity_ms": 1793571985477,
+      "display_name": "AI Mathathon 2026",
+      "project": "p-acd94c16e21a4059ba4d3acbaba02af1",
+      "session": "let-g-and-a-49j7",
+      "title": "Rewriting chapter 7 in simplicial spaces language"
+    },
+    {
+      "activity_ms": 1793567227560,
+      "display_name": "Classifying space filtration",
+      "project": "p-dcc90014024d4a86960f01367a637d5a",
+      "session": "consider-the-standard-simplicial-5sta",
+      "title": "Images of restriction maps in BG skeleta cohomology"
+    },
+    {
+      "activity_ms": 1793556005822,
+      "display_name": "Sample",
+      "project": "default",
+      "session": "kakeya-2d-latex-write-up",
+      "title": "Write up the formalization in LaTeX"
+    },
+    {
+      "activity_ms": 1791210640354,
+      "display_name": "Sample",
+      "project": "default",
+      "session": "kakeya-2d-autoformalization",
+      "title": "Autoformalize Davies' planar Kakeya theorem"
+    }
+  ],
+  "next": null
+}

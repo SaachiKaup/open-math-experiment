@@ -1,0 +1,59 @@
+{
+  "created_at_utc": "20261107T115839206948Z",
+  "credential_source": ".env",
+  "environment_and_dotenv_differ": false,
+  "results": [
+    {
+      "case": "org_projects",
+      "method": "POST",
+      "operation": "org_projects",
+      "request_body": {
+        "limit": 50,
+        "team": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143"
+      },
+      "accept": "application/json",
+      "http_status": 200,
+      "response_keys": [
+        "next",
+        "projects"
+      ],
+      "list_counts": {
+        "projects": 3
+      },
+      "successful_json_response": true
+    },
+    {
+      "case": "runtime_open_no_wake",
+      "method": "POST",
+      "operation": "open",
+      "request_body": {
+        "team": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143",
+        "version": "0.52.0",
+        "ipc_version": 6,
+        "ticket": true,
+        "wake": false
+      },
+      "accept": "application/json",
+      "http_status": 200,
+      "response_keys": [
+        "bundle_sha256",
+        "environment",
+        "ipc_version",
+        "programs_root",
+        "state",
+        "ticket",
+        "version"
+      ],
+      "list_counts": {},
+      "runtime": {
+        "state": "ready",
+        "version": "0.52.0",
+        "ipc_version": 6,
+        "environment": "avm-03c300d2-9fc0-4c74-9bf9-fc3c683235cf"
+      },
+      "ticket_returned": true,
+      "successful_json_response": true
+    }
+  ],
+  "skipped": []
+}

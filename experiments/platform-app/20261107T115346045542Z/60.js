@@ -1,0 +1,1 @@
+import{n as e}from"./Files-TIXMB18C.js";export{e as FilesTab};

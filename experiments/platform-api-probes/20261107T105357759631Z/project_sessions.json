@@ -1,0 +1,19 @@
+{
+  "next": null,
+  "sessions": [
+    {
+      "archived_at": null,
+      "hidden": false,
+      "session": "consider-the-standard-simplicial-5sta",
+      "title": "Images of restriction maps in BG skeleta cohomology",
+      "updated": 1793569027
+    },
+    {
+      "archived_at": null,
+      "hidden": false,
+      "session": "consider-the-standard-simplicial-ipi6",
+      "title": "Classifying space BG cohomology restrictions to simplicial skeleta",
+      "updated": 1793644325
+    }
+  ]
+}

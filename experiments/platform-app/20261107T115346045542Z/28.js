@@ -1,0 +1,1 @@
+var e=`/app/brand/`,t=document.getElementById(`omm-mark`);t&&(t.content.querySelector(`.omm-mark-light`).src=`${e}symbol-gradient.svg`,t.content.querySelector(`.omm-mark-dark`).src=`${e}symbol-white.svg`);

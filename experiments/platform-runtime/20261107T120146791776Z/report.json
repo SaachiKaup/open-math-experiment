@@ -1,0 +1,285 @@
+{
+  "team": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143",
+  "project": "p-acd94c16e21a4059ba4d3acbaba02af1",
+  "path": "",
+  "wake_requested": false,
+  "agents_started": false,
+  "remote_files_changed": false,
+  "credential_source": ".env",
+  "environment_and_dotenv_differ": false,
+  "open": {
+    "http_status": 200,
+    "response_keys": [
+      "bundle_sha256",
+      "environment",
+      "ipc_version",
+      "programs_root",
+      "state",
+      "ticket",
+      "version"
+    ],
+    "list_counts": {},
+    "runtime": {
+      "state": "ready",
+      "version": "0.52.0",
+      "ipc_version": 6,
+      "environment": "avm-03c300d2-9fc0-4c74-9bf9-fc3c683235cf"
+    },
+    "ticket_returned": true,
+    "successful_json_response": true
+  },
+  "whoami": {
+    "access": {
+      "account": "a-07806d59d0769a353d23d356b4a5782f",
+      "as": null,
+      "kind": "window",
+      "nickname": "Saachi Kaup",
+      "project": null,
+      "role": "owner"
+    },
+    "handles": [
+      {
+        "actions": [
+          "changes",
+          "ensure",
+          "history",
+          "list",
+          "move",
+          "queue",
+          "say",
+          "send_now",
+          "wait",
+          "withdraw"
+        ],
+        "delegable": false,
+        "endpoint": "conversation",
+        "expires_in_ms": null,
+        "handle": 0,
+        "max_calls": null,
+        "resource": []
+      },
+      {
+        "actions": [
+          "create",
+          "interrupt",
+          "list",
+          "stop"
+        ],
+        "delegable": false,
+        "endpoint": "sessions",
+        "expires_in_ms": null,
+        "handle": 1,
+        "max_calls": null,
+        "resource": []
+      },
+      {
+        "actions": [
+          "contents"
+        ],
+        "delegable": false,
+        "endpoint": "memory",
+        "expires_in_ms": null,
+        "handle": 2,
+        "max_calls": null,
+        "resource": []
+      },
+      {
+        "actions": [
+          "list"
+        ],
+        "delegable": false,
+        "endpoint": "skills",
+        "expires_in_ms": null,
+        "handle": 3,
+        "max_calls": null,
+        "resource": [
+          "projects"
+        ]
+      },
+      {
+        "actions": [
+          "decide",
+          "list"
+        ],
+        "delegable": false,
+        "endpoint": "approvals",
+        "expires_in_ms": null,
+        "handle": 4,
+        "max_calls": null,
+        "resource": []
+      },
+      {
+        "actions": [
+          "next",
+          "title"
+        ],
+        "delegable": false,
+        "endpoint": "suggestions",
+        "expires_in_ms": null,
+        "handle": 5,
+        "max_calls": null,
+        "resource": []
+      },
+      {
+        "actions": [
+          "changes",
+          "file",
+          "repositories"
+        ],
+        "delegable": false,
+        "endpoint": "diffs",
+        "expires_in_ms": null,
+        "handle": 6,
+        "max_calls": null,
+        "resource": [
+          "projects"
+        ]
+      },
+      {
+        "actions": [
+          "create",
+          "list",
+          "stop"
+        ],
+        "delegable": false,
+        "endpoint": "projects",
+        "expires_in_ms": null,
+        "handle": 7,
+        "max_calls": null,
+        "resource": [
+          "projects"
+        ]
+      },
+      {
+        "actions": [
+          "bundle_import",
+          "bundle_out",
+          "bundle_read",
+          "bundle_write",
+          "download",
+          "git_initialize",
+          "git_remote",
+          "git_state",
+          "list",
+          "mkdir",
+          "remove",
+          "rename",
+          "upload"
+        ],
+        "delegable": false,
+        "endpoint": "files",
+        "expires_in_ms": null,
+        "handle": 9,
+        "max_calls": null,
+        "resource": [
+          "projects"
+        ]
+      },
+      {
+        "actions": [
+          "background"
+        ],
+        "delegable": false,
+        "endpoint": "jobs",
+        "expires_in_ms": null,
+        "handle": 10,
+        "max_calls": null,
+        "resource": []
+      },
+      {
+        "actions": [
+          "records",
+          "status",
+          "stop"
+        ],
+        "delegable": false,
+        "endpoint": "swarm",
+        "expires_in_ms": null,
+        "handle": 13,
+        "max_calls": null,
+        "resource": []
+      },
+      {
+        "actions": [
+          "stop"
+        ],
+        "delegable": false,
+        "endpoint": "memory",
+        "expires_in_ms": null,
+        "handle": 14,
+        "max_calls": null,
+        "resource": []
+      },
+      {
+        "actions": [
+          "holds"
+        ],
+        "delegable": false,
+        "endpoint": "kernel",
+        "expires_in_ms": null,
+        "handle": 17,
+        "max_calls": null,
+        "resource": [
+          "activity"
+        ]
+      }
+    ],
+    "process": 15
+  },
+  "projects": [
+    {
+      "dir": "default",
+      "id": "8a35893f-da1b-4300-8da5-553365628e6c",
+      "name": "default"
+    },
+    {
+      "dir": "p-acd94c16e21a4059ba4d3acbaba02af1",
+      "id": "b0d80008-bf3e-47e0-ac81-f659a9c7a3e1",
+      "name": "p-acd94c16e21a4059ba4d3acbaba02af1"
+    },
+    {
+      "dir": "p-dcc90014024d4a86960f01367a637d5a",
+      "id": "7d4d7b52-da2b-4293-a59b-b9cf2dc1d6af",
+      "name": "p-dcc90014024d4a86960f01367a637d5a"
+    }
+  ],
+  "files": {
+    "entries": [
+      {
+        "created": 1793566652056,
+        "kind": "dir",
+        "modified": 1793566652058,
+        "name": ".git",
+        "size": 4096
+      },
+      {
+        "created": 1793570019374,
+        "kind": "dir",
+        "modified": 1793763799922,
+        "name": ".scratch",
+        "size": 4096
+      },
+      {
+        "created": 1793570427910,
+        "kind": "dir",
+        "modified": 1793594653750,
+        "name": ".ultramath",
+        "size": 4096
+      },
+      {
+        "created": 1793569997268,
+        "kind": "dir",
+        "modified": 1793569997670,
+        "name": "attachments",
+        "size": 4096
+      },
+      {
+        "created": 1793570511122,
+        "kind": "dir",
+        "modified": 1793764075068,
+        "name": "results",
+        "size": 4096
+      }
+    ]
+  }
+}

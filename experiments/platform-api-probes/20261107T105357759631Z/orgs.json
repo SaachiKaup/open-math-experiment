@@ -1,0 +1,20 @@
+{
+  "invitations": 0,
+  "next": null,
+  "orgs": [
+    {
+      "id": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143",
+      "kind": "shared",
+      "name": "SPA",
+      "role": "owner",
+      "tier": "normal",
+      "vm": {
+        "cpus": 4.0,
+        "disk_mb": 262144,
+        "memory_mb": 16384,
+        "target": null,
+        "tier": "normal"
+      }
+    }
+  ]
+}

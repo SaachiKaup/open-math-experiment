@@ -1,0 +1,1 @@
+var e=()=>`en`;function t(e,t,n){let r=t;if(n)for(let[e,t]of Object.entries(n))r=r.replaceAll(`{${e}}`,String(t));return r}export{t as n,e as t};

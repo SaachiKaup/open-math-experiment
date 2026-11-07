@@ -1,0 +1,147 @@
+{
+  "created_at_utc": "20261107T105357759631Z",
+  "credential_source": ".env",
+  "environment_and_dotenv_differ": false,
+  "results": [
+    {
+      "case": "orgs",
+      "method": "POST",
+      "operation": "orgs",
+      "request_body": {},
+      "accept": "application/json",
+      "http_status": 200,
+      "response_keys": [
+        "invitations",
+        "next",
+        "orgs"
+      ],
+      "list_counts": {
+        "orgs": 1
+      },
+      "successful_json_response": true
+    },
+    {
+      "case": "models",
+      "method": "POST",
+      "operation": "models",
+      "request_body": {},
+      "accept": "application/json",
+      "http_status": 200,
+      "response_keys": [
+        "logos",
+        "models"
+      ],
+      "list_counts": {
+        "models": 7
+      },
+      "successful_json_response": true
+    },
+    {
+      "case": "model_catalog_json",
+      "method": "POST",
+      "operation": "model_catalog",
+      "request_body": {},
+      "accept": "application/json",
+      "http_status": 200,
+      "response_keys": [
+        "logos",
+        "models"
+      ],
+      "list_counts": {
+        "models": 7
+      },
+      "successful_json_response": true
+    },
+    {
+      "case": "model_catalog_browser_accept",
+      "method": "POST",
+      "operation": "model_catalog",
+      "request_body": {},
+      "accept": "*/*",
+      "http_status": 200,
+      "response_keys": [
+        "logos",
+        "models"
+      ],
+      "list_counts": {
+        "models": 7
+      },
+      "successful_json_response": true
+    },
+    {
+      "case": "recent_chats",
+      "method": "POST",
+      "operation": "recent_chats",
+      "request_body": {
+        "limit": 10,
+        "team": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143"
+      },
+      "accept": "*/*",
+      "http_status": 200,
+      "response_keys": [
+        "items",
+        "next"
+      ],
+      "list_counts": {
+        "items": 6
+      },
+      "successful_json_response": true
+    },
+    {
+      "case": "feature_gates",
+      "method": "POST",
+      "operation": "feature_gates",
+      "request_body": {},
+      "accept": "*/*",
+      "http_status": 200,
+      "response_keys": [
+        "gates"
+      ],
+      "list_counts": {},
+      "successful_json_response": true
+    },
+    {
+      "case": "project_sessions",
+      "method": "POST",
+      "operation": "project_sessions",
+      "request_body": {
+        "limit": 50,
+        "include_hidden": true,
+        "project": "p-dcc90014024d4a86960f01367a637d5a",
+        "team": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143"
+      },
+      "accept": "*/*",
+      "http_status": 200,
+      "response_keys": [
+        "next",
+        "sessions"
+      ],
+      "list_counts": {
+        "sessions": 2
+      },
+      "successful_json_response": true
+    },
+    {
+      "case": "session_history",
+      "method": "POST",
+      "operation": "session_history",
+      "request_body": {
+        "session": "consider-the-standard-simplicial-5sta",
+        "limit": 200,
+        "project": "p-dcc90014024d4a86960f01367a637d5a",
+        "team": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143"
+      },
+      "accept": "*/*",
+      "http_status": 200,
+      "response_keys": [
+        "next",
+        "records"
+      ],
+      "list_counts": {
+        "records": 200
+      },
+      "successful_json_response": true
+    }
+  ],
+  "skipped": []
+}

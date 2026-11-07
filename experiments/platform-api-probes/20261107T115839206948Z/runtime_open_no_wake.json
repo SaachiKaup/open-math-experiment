@@ -1,0 +1,9 @@
+{
+  "bundle_sha256": "bf60bc532cb2491ee35b7b4b0424dc556e315ab62fd91a363c307579911f8bc0",
+  "environment": "avm-03c300d2-9fc0-4c74-9bf9-fc3c683235cf",
+  "ipc_version": 6,
+  "programs_root": "/opt/nucleus/runtimes/bf60bc532cb2491ee35b7b4b0424dc556e315ab62fd91a363c307579911f8bc0/bin",
+  "state": "ready",
+  "ticket": "AYv8GxvPTbhDkjd3ptGqHkpcKZT1urh7Pb-nD4DItxA",
+  "version": "0.52.0"
+}

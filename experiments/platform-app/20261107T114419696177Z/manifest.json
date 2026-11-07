@@ -1,0 +1,180 @@
+{
+  "entry": "https://os.openmathmodel.org/app/",
+  "credentials_used": false,
+  "files": [
+    {
+      "url": "https://os.openmathmodel.org/app/",
+      "file": "00.html",
+      "characters": 5480,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/resume-mark.js",
+      "file": "01.js",
+      "characters": 2906,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/index-B8q0QlWZ.js",
+      "file": "02.js",
+      "characters": 1839,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/account-BHoikoR9.js",
+      "file": "03.js",
+      "characters": 4400,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/web-settings-Ceh7Ri8Q.js",
+      "file": "04.js",
+      "characters": 5204,
+      "candidate_operations": [],
+      "literal_api_paths": [
+        "/v1/auth/web/activate",
+        "/v1/auth/web/finish",
+        "/v1/auth/web/status",
+        "/v1/projects/",
+        "/v1/public/",
+        "/v1/public/projects/"
+      ]
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/platform-DoK3UpfL.js",
+      "file": "05.js",
+      "characters": 98777,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/web-transport-ByiIXPVy.js",
+      "file": "06.js",
+      "characters": 1623,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/i18n-DjVb9kXo.js",
+      "file": "07.js",
+      "characters": 145,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/orgs-CKCZ-u60.js",
+      "file": "08.js",
+      "characters": 1294,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/invitation-entry-CrlcwiwH.js",
+      "file": "09.js",
+      "characters": 20869,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/web-auth-1-ijwe5p.js",
+      "file": "10.js",
+      "characters": 13784,
+      "candidate_operations": [],
+      "literal_api_paths": [
+        "/v1/auth/web/activate/begin",
+        "/v1/auth/web/start"
+      ]
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/viewport-DgmsWgUI.js",
+      "file": "11.js",
+      "characters": 659,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/github-authorization-BpQ9qu0_.js",
+      "file": "12.js",
+      "characters": 1616,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/web-login-MhIXzMq4.js",
+      "file": "13.js",
+      "characters": 501,
+      "candidate_operations": [],
+      "literal_api_paths": [
+        "/v1/web-login"
+      ]
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/preload-helper-8sr2IrsO.js",
+      "file": "14.js",
+      "characters": 1368,
+      "candidate_operations": [],
+      "literal_api_paths": []
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/public-DZhRLw7F.js",
+      "error": "HTTP 404; redirects are not followed"
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/public-CoK9Ct4z.js",
+      "error": "HTTP 404; redirects are not followed"
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/web-ZymyYnL0.js",
+      "error": "HTTP 404; redirects are not followed"
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/web-transport-ByiIXPVy.js",
+      "error": "HTTP 404; redirects are not followed"
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/web-settings-Ceh7Ri8Q.js",
+      "error": "HTTP 404; redirects are not followed"
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/platform-DoK3UpfL.js",
+      "error": "HTTP 404; redirects are not followed"
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/web-CduHP5yX.js",
+      "error": "HTTP 404; redirects are not followed"
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/preferences-BN-kEB7K.js",
+      "error": "HTTP 404; redirects are not followed"
+    },
+    {
+      "url": "https://os.openmathmodel.org/app/assets/assets/orgs-CKCZ-u60.js",
+      "error": "HTTP 404; redirects are not followed"
+    }
+  ],
+  "remaining_assets": [
+    "https://os.openmathmodel.org/app/assets/assets/Skeleton-DgSyfvcO.js",
+    "https://os.openmathmodel.org/app/assets/assets/attach-VACXuBXh.js",
+    "https://os.openmathmodel.org/app/assets/assets/brand-DMCnxm_U.js",
+    "https://os.openmathmodel.org/app/assets/assets/conversation-5Va3lehX.js",
+    "https://os.openmathmodel.org/app/assets/assets/i18n-DjVb9kXo.js",
+    "https://os.openmathmodel.org/app/assets/assets/icons-D9QPZaxY.js",
+    "https://os.openmathmodel.org/app/assets/assets/jobs-CsWQLGfL.js",
+    "https://os.openmathmodel.org/app/assets/assets/limits-DMRjts9t.js",
+    "https://os.openmathmodel.org/app/assets/assets/main-BwtXRI9O.js",
+    "https://os.openmathmodel.org/app/assets/assets/panes-BBmqQ3MY.js",
+    "https://os.openmathmodel.org/app/assets/assets/preload-helper-8sr2IrsO.js",
+    "https://os.openmathmodel.org/app/assets/assets/prompt-copy-BGBLZ_QJ.js",
+    "https://os.openmathmodel.org/app/assets/assets/queue-8p9YG6YI.js",
+    "https://os.openmathmodel.org/app/assets/assets/review-BVtpi0Mx.js",
+    "https://os.openmathmodel.org/app/assets/assets/solid-BdZ7wecZ.js",
+    "https://os.openmathmodel.org/app/assets/assets/title-edit-CS4IeDci.js"
+  ],
+  "limit_reached": true
+}

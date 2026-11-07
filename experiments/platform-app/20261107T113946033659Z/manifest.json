@@ -1,0 +1,13 @@
+{
+  "entry": "https://os.openmathmodel.org/app/",
+  "credentials_used": false,
+  "files": [],
+  "errors": [
+    {
+      "url": "https://os.openmathmodel.org/app/",
+      "error": "curl: (6) Could not resolve host: os.openmathmodel.org"
+    }
+  ],
+  "remaining_assets": [],
+  "limit_reached": false
+}

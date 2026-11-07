@@ -1,0 +1,8 @@
+printf 'Authorization: Bearer %s\n' "$OPENMATHOS_PLATFORM_KEY" |
+    curl --silent --show-error \
+      --request POST \
+      --header @- \
+      --header 'Content-Type: application/json' \
+      --data '{}' \
+      --write-out '\nHTTP %{http_code}\n' \
+      https://os.openmathmodel.org/v1/models

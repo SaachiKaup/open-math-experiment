@@ -1,0 +1,14 @@
+{
+  "team": "o-50527b20-c6c7-42da-b3f8-ec68cea3e143",
+  "project": "p-acd94c16e21a4059ba4d3acbaba02af1",
+  "path": "",
+  "wake_requested": false,
+  "agents_started": false,
+  "remote_files_changed": false,
+  "credential_source": ".env",
+  "environment_and_dotenv_differ": false,
+  "open": {
+    "transport_error": "curl: (6) Could not resolve host: os.openmathmodel.org"
+  },
+  "error": "curl: (6) Could not resolve host: os.openmathmodel.org"
+}
